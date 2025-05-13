@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:replace="~{common/fragment :: head}"></head>
+
+<body>
+    
+    <header th:replace="~{common/fragment :: header}"></header>
+    <main class="container-fluid"></main>
+    <div th:replaace ="~{common/fragment :: backBtn}"></div>
+
+    <section class="container mt-3" >
+        <div class="p-3 shadow-lg rounded my-3 d-flex justify-content-between aligen-item-center" 
+            th:each="blog, field :${blogs}" th:onclick="| handleOnHeadingClick(${blog.id}) |" >
+           
+            <h3 th:text="|${(field.index +1) < 10 ? '0' +(field.index + 1) : (field.index+1)} . ${blog.heading}|"></h3>
+
+            <div class="text-end">
+           <a th:href="| /edit/${blog.id} |" class="text-decoration-none me-5">✏</a>
+           <a th:href="| /delete/${blog.id} |" class="text-decoration-none">🗑</a>
+           </div>
+        </div>
+    </section>
+    <script src="/js/home.js"></script>
+    </main>
+</body>
+</html>
