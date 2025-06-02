@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="189cd70a-a62d-4da2-972f-7d8a3c75f3b7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/jt-blog/jt-blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jt-blog/jt-blog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/java/com/jt/jt_blog/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/java/com/jt/jt_blog/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/java/com/jt/jt_blog/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/java/com/jt/jt_blog/model/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/java/com/jt/jt_blog/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/java/com/jt/jt_blog/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/resources/templates/blog-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/resources/templates/blog-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/resources/templates/common/fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/resources/templates/common/fragment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/resources/templates/edit-blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/resources/templates/edit-blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jt-blog/jt-blog/src/main/resources/templates/schema.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2xXrHircMWmGXaHLJfpwhzRneYH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/subha/Desktop/Full Stack/Spring Boot/many-to-many"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="189cd70a-a62d-4da2-972f-7d8a3c75f3b7" name="Changes" comment="" />
+      <created>1748095173557</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748095173557</updated>
+    </task>
+    <servers />
+  </component>
+</project>

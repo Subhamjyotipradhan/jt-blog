@@ -6,11 +6,11 @@
     
     <header th:replace="~{common/fragment :: header}"></header>
     <main class="container-fluid"></main>
-    <div th:replaace ="~{common/fragment :: backBtn}"></div>
+    <div th:replace="~{common/fragment :: backBtn('Add Blog', '/form')}"></div>
 
     <section class="container mt-3" >
         <div class="p-3 shadow-lg rounded my-3 d-flex justify-content-between aligen-item-center" 
-            th:each="blog, field :${blogs}" th:onclick="| handleOnHeadingClick(${blog.id}) |" >
+            th:each="blog, field :${blogs}" th:onclick="| handleOnHeadingClick(${blog.id}) |" style="cursor: pointer;">
            
             <h3 th:text="|${(field.index +1) < 10 ? '0' +(field.index + 1) : (field.index+1)} . ${blog.heading}|"></h3>
 

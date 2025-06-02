@@ -40,7 +40,7 @@ public class BlogController {
     @GetMapping("/blog/{id}")
     public String getBlog(@PathVariable int id , Model model) {
         
-        var blog = blogService.getBlog(id);
+        var blog = blogService.getBlogById(id);
         model.addAttribute("blog", blog);
         return "blog-detail";
     }
@@ -53,7 +53,7 @@ public class BlogController {
 
     @GetMapping("/edit/{id}")
     public String editBlog(@PathVariable int id, Model model) {
-        var blog = blogService.getBlog(id);
+        var blog = blogService.getBlogById(id);
         model.addAttribute("blog", blog);
         return "edit-blog";
     }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head th:fragement="head">
+    <head th:fragment="head">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
@@ -11,12 +11,12 @@
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     </head>
 <body>
-    <header th:fragement="hrader" class="container-fluid mt-3 text-center" >
+    <header th:fragment="header" class="container-fluid mt-3 text-center" >
         <h1 class="p-3 shadow-lg" style="background-color: aqua;">JT blogs</h1>
     </header>
     
-    <div th:fragment="backBtn" class="text-end">
-        <a th:href="@{}" class="btn btn-primary" th:text="${btn-text}">Back</a>
+    <div th:fragment="backBtn(text, url)" class="text-end">
+        <a th:href="@{${url}}" class="btn btn-primary" th:text="${text}">Back</a>
     </div>
 
 </body>
