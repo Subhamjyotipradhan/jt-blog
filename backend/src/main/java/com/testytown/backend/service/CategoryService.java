@@ -19,5 +19,6 @@ public class CategoryService {
         var category = Category.builder().categoryName(requestDTO.getCategoryName()).build();
         return categoryRepository.save(category);
 
+
     }
 }
