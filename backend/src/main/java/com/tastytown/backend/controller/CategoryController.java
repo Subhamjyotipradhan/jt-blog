@@ -1,4 +1,4 @@
-package com.testytown.backend.controller;
+package com.tastytown.backend.controller;
 
 
 import java.util.List;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.testytown.backend.dto.CategoryRequestDTO;
-import com.testytown.backend.entity.Category;
-import com.testytown.backend.service.CategoryService;
+import com.tastytown.backend.dto.CategoryRequestDTO;
+import com.tastytown.backend.entity.Category;
+import com.tastytown.backend.service.CategoryService;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.parameters.RequestBody;

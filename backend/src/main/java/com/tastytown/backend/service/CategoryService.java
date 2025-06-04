@@ -1,4 +1,4 @@
-package com.testytown.backend.service;
+package com.tastytown.backend.service;
 
 
 
@@ -6,9 +6,9 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.testytown.backend.dto.CategoryRequestDTO;
-import com.testytown.backend.entity.Category;
-import com.testytown.backend.repository.CategoryRepository;
+import com.tastytown.backend.dto.CategoryRequestDTO;
+import com.tastytown.backend.entity.Category;
+import com.tastytown.backend.repository.CategoryRepository;
 
 
 import lombok.RequiredArgsConstructor;

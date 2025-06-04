@@ -1,4 +1,4 @@
-package com.testytown.backend.config;
+package com.tastytown.backend.config;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;

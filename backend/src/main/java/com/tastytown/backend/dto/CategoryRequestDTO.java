@@ -1,4 +1,4 @@
-package com.testytown.backend.dto;
+package com.tastytown.backend.dto;
 
 import lombok.Data;
 
